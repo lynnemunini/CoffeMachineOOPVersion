@@ -20,17 +20,5 @@ while True:
             if my_money_machine.make_payment(drink.cost):
                 my_coffee_maker.make_coffee(drink)
 
-'''while True:
-    coffee = input("What would you like? (espresso/latte/cappuccino): ").lower()
-    if coffee == "off":
-        break
-    elif coffee == "report":
-        print(CoffeeMaker.report('self'))
-    else:
-        items = Menu.get_items('self')
-        if Menu.find_drink(coffee) in items:
-            if CoffeeMaker.is_resource_sufficient(coffee) == "True":
-                if MoneyMachine.make_payment(coffee) == "True":
-                    CoffeeMaker.make_coffee(coffee)
-                    print(f"Enjoy your {coffee}")'''
+
 
